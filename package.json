@@ -1,0 +1,15 @@
+{ "name" : "pbuf",
+  "version" : "0.4.0",
+  "description" : "Protocol Buffers for NodeJS",
+  "author": {
+    "Matthias Ernst": "mernst@google.com"
+  },
+  "main": "./build/default/protobuf",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dannycoates/pbuf.git"
+  },
+  "scripts": { 
+    "install": "PROTOBUF=/usr/local node-waf configure clean build" 
+  }
+}
