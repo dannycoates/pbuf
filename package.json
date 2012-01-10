@@ -4,7 +4,7 @@
   "author": {
     "Matthias Ernst": "mernst@google.com"
   },
-  "main": "./build/default/protobuf",
+  "main": "./build/Release/protobuf",
   "repository": {
     "type": "git",
     "url": "git://github.com/dannycoates/pbuf.git"
